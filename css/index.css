@@ -130,6 +130,67 @@ table {
   margin: 0;
 }
 
-.container {
-  
+html {
+  font-size: 62.5%;
 }
+
+h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  min-height: 10vh;
+  background: #e67300;
+  color: #fff;
+  padding: 0 1.67%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-container h4 {
+  font-size: 2.1rem;
+  line-height: 2.6rem;
+}
+
+header .logo-container a {
+color: #fff;
+font-size: 3rem;
+line-height: 3.8rem;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+}
+
+header nav {
+  min-width: 306px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+header nav a:hover {
+  font-weight: 700;
+}
+
+
+
+
+
+
