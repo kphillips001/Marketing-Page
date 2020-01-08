@@ -231,8 +231,8 @@ header .logo-container a {
   }
 }
 header nav {
-  min-width: 100px;
-  width: 18%;
+  min-width: 306px;
+  width: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -280,11 +280,9 @@ header nav .home-link {
   justify-content: space-between;
   align-items: stretch;
   
-  /*
-  Content Are - Mobile
-  */
+  /* Mobile */
 }
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .main-landing-page {
     justify-content: flex-end;
     flex-direction: column-reverse;
@@ -312,7 +310,7 @@ header nav .home-link {
   }
 }
 .main-landing-page .hero-area .hero-img-container {
-  background: url("../images/restaurant.jpg") no-repeat center;
+  background: url("../images/restaurant.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
 }
@@ -400,7 +398,7 @@ header nav .home-link {
 .main-landing-page .mobile-content {
   display: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .main-landing-page .mobile-content {
     display: flex;
     justify-content: space-between;
@@ -421,7 +419,6 @@ header nav .home-link {
 }
 .main-landing-page .mobile-content .mobile-banner .mobile-banner-img {
   height: 100%;
-  background: url("../images/restaurant.jpg") no-repeat center;
   background-size: cover;
 }
 .main-landing-page .mobile-content .mobile-cta-container {
@@ -460,11 +457,5 @@ header nav .home-link {
   font-weight: normal;
 }
 
-
-
-
-
-
-
-
+/* About Page */
 
