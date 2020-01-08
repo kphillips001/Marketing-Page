@@ -231,8 +231,8 @@ header .logo-container a {
   }
 }
 header nav {
-  min-width: 306px;
-  width: 20%;
+  min-width: 100px;
+  width: 18%;
   display: flex;
   justify-content: space-between;
   align-items: center;
