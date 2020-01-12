@@ -1,0 +1,83 @@
+header {
+  width: 100%;
+  min-height: 10vh;
+  background: @nav-bg;
+  padding: 0 1.67%;
+  .displayFlex(space-between, center);
+
+  @media @mobile {
+    padding: 5%;
+  }
+
+  .logo-container {
+    @media @mobile {
+      .displayFlex(space-between, center);
+      width: 40%;
+    }
+
+    h4 {
+      @media @mobile {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    a {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: none;
+
+      @media @mobile {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+      }
+    }
+  } //end of logo container
+
+  nav {
+    min-width: 306px;
+    width: 20%;
+    .displayFlex(space-between, center);
+
+    @media @mobile {
+      min-width: 0;
+    }
+
+    a {
+      text-decoration: none;
+     
+      &:hover {
+        font-weight: 700;
+      }
+
+      @media @mobile {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    .about-link {
+      @media @mobile {
+        display: inline;
+      }
+    }
+
+    .home-link {
+      display: none;
+      @media @mobile {
+        display: inline;
+      }
+    }
+
+    .hide {
+      @media @mobile {
+        display: none;
+      }
+    }
+  } // end of nav
+} //end of header
+
+
+ 
